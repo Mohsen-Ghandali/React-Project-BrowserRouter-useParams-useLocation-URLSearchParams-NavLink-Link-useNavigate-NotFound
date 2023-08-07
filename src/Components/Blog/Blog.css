@@ -1,0 +1,40 @@
+main.blog{
+    width: 100%;
+}
+
+main.blog > h1{
+    width: 100%;
+    text-align: center;
+    margin: 50px 0;
+    font-size: 30px;
+}
+main.blog article {
+    width: 65%;
+    margin: 0 auto ;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+main.blog article:nth-last-of-type(1){
+    margin-bottom: 60px;
+}
+
+main.blog article h2 {
+    color: #333;
+    font-size: 29px;
+}
+
+main.blog article p.metadata {
+    font-size: 18px;
+    color: #555;
+    font-style: italic;
+}
+
+main.blog blockquote {
+    border-left: 5px solid #2b2b2b;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}

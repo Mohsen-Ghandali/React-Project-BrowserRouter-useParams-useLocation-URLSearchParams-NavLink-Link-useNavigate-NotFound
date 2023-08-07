@@ -1,0 +1,38 @@
+
+main.about {
+   width: 100%;
+}
+
+
+main.about> h1 {
+    font-size: 30px;
+    text-align: center;
+    color: #333;
+    margin: 50px 0;
+}
+
+main.about> section {
+    width: 65%;
+    margin: 0 auto ;
+    display: block;
+    margin-bottom: 45.7px;
+}
+main.about> section:nth-last-of-type(1) {
+   margin-bottom: 121px;
+}
+
+
+main.about> section >h2 {
+    font-size: 24px;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+}
+
+main.about> section> p {
+    color: #555;
+    text-align: justify;
+    width: 90%;
+    margin: 0 auto;
+}
